@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/thanhhuy1234ok/docker-jenkin-golang'
+                git branch: 'main', url: 'https://github.com/thanhhuy1234ok/docker-jenkin-golang'
             }
         }
 
