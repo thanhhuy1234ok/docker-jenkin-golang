@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'thanhhuy1234ok/docker-jenkin-golang'
+        DOCKER_IMAGE = 'thanhhuy1234ok/docker-jenkin-golang-image'
         DOCKER_TAG = 'latest'
         TELEGRAM_BOT_TOKEN = '7939301771:AAEw4T70jSq7d6JzamJJmPNmBigcExKw3Pk'
         TELEGRAM_CHAT_ID = '-1002394833136'
